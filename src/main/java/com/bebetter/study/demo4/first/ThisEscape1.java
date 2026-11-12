@@ -2,6 +2,7 @@ package com.bebetter.study.demo4.first;
 
 /**
  * this溢出导致的线程安全情况1
+ * 对象还未完全初始化, 线程已经启动了
  */
 public class ThisEscape1 {
 
