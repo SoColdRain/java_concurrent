@@ -20,7 +20,7 @@ public class BoundedExecutor {
         semaphore = new Semaphore(bound);
     }
 
-    public void sumitTask(Runnable task) throws InterruptedException {
+    public void submitTask(Runnable task) throws InterruptedException {
         // 信号量阻塞
         semaphore.acquire();
         try {
